@@ -71,8 +71,8 @@ class AboutView extends StatelessWidget {
                   ListTile(
                     leading: const Icon(Icons.phone, color: Colors.blueAccent),
                     title: const Text('Teléfono'),
-                    subtitle: const Text('+1 809-901-3168'),
-                    onTap: () => _launchUrl('tel:+18099013168'),
+                    subtitle: const Text('+1 809-901-3169'),
+                    onTap: () => _launchUrl('tel:+18099013169'),
                   ),
                   ListTile(
                     leading: const Icon(Icons.web, color: Colors.blueAccent),

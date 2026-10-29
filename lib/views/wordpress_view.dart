@@ -56,7 +56,6 @@ class _WordpressViewState extends State<WordpressView> {
     }
   }
 
-  // Limpia etiquetas HTML que retornan en los campos title/excerpt de WordPress
   String _removeHtmlTags(String htmlString) {
     RegExp exp = RegExp(r"<[^>]*>", multiLine: true, caseSensitive: true);
     return htmlString.replaceAll(exp, '').replaceAll('&nbsp;', ' ').replaceAll('&#8211;', '-');
